@@ -1,0 +1,32 @@
+1(to create file through command
+type nul > filename.txt
+///////////////////////////////////////
+2)to create package.json
+npm init
+
+//////////////////////////////////////////////////////////
+3)Now installing dependencies
+npm i express mongoose body-parser bcryptjs validation
+
+. bcryptjs is a password hashing function designed by Niels Provos and David Mazières
+. body-parser allows us to get the data throughout the request
+. express is our main framework
+. mongoose is used to connect/interact with MongoDB
+. validation (as its name implies) is used for validation
+
+///////////////////////////////////////////////////////////////////////////
+4)to install nodemon
+npm i -D nodemon
+
+
+nodemon is a utility that will monitor for any changes in your source and automatically restart your server.
+
+
+
+At this point, if we change anything, we need to restart the server manually. But if we set up nodemon, then we don’t have to restart it every time; nodemon will watch if there is any change and restart the server automatically.
+
+
+
+6)We need another dependency package called config for the global variable to run our project. Use the following command to install it to the project:
+
+$ npm i config
